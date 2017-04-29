@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appdeployment:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:appdeployment="http://www.ibm.com/websphere/appserver/schemas/5.0/appdeployment.xmi" xmi:id="Deployment_1347529484613">
+    <deployedObject xmi:type="appdeployment:ApplicationDeployment" xmi:id="ApplicationDeployment_1347544766353" startingWeight="10">
+        <modules xmi:type="appdeployment:WebModuleDeployment" xmi:id="WebModuleDeployment_14934269776120" startingWeight="10000" uri="docker-hellowebsphere-web-0.0.1-SNAPSHOT.war" classloaderMode="PARENT_LAST"/>
+        <classloader xmi:id="Classloader_1347543866613" mode="PARENT_LAST"/>
+    </deployedObject>
+</appdeployment:Deployment>
+

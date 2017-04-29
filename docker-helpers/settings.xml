@@ -1,0 +1,11 @@
+<settings>
+  <mirrors>
+    <mirror>
+      <id>internal-repository</id>
+      <name>Local Nexus Proxy</name>
+      <url>http://HOSTIP:8081/repository/maven-central/</url>
+      <mirrorOf>*</mirrorOf>
+    </mirror>
+  </mirrors>
+</settings>
+
